@@ -1,4 +1,4 @@
-C2 over Microsofts' Outlook based on Octopus as backend
+C2 over Microsofts' Outlook based on Octopus as backend.
 
 # What is Octopus ? ![](https://img.shields.io/badge/python-3-yellow)
   Octopus is an open source, pre-operation C2 server based on python which can control an Octopus powershell agent through HTTP/S.
@@ -8,8 +8,8 @@ C2 over Microsofts' Outlook based on Octopus as backend
 
 
 # About the PowerShell agent 
-This is gonna ran on the victim's machine(inside the internal organization):
-just run the script: ```./AllInOne.ps1```
+* This is gonna ran on the victim's machine(inside the internal organization):
+* just run the script: ```./AllInOne.ps1```
 
 
 
@@ -61,8 +61,8 @@ Octopus >>
 ```
 # Usage
 
-> listen_http 0.0.0.0 8080 <your_domain> 10 comments1.php <listener_name>
-> generate_powershell <listener_name>
+* > listen_http 0.0.0.0 8080 <your_domain> 10 comments1.php <listener_name>
+* > generate_powershell <listener_name>
 
 
 *Now copy the first IEX and run it from machine that has access to your gmail account
