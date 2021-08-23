@@ -70,7 +70,7 @@ Octopus >>
 
 > (after connection established): 
 * > interact 1
-* And you will able to run os PS commands
+> And you will able to run os PS commands
 
 
 
