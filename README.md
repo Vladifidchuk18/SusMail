@@ -72,10 +72,18 @@ Octopus >>
 * > interact 1
 > And you will able to run os PS commands
 
+# Video
+
+https://user-images.githubusercontent.com/58856199/130457774-0c70f152-684d-49b7-8e03-f93e7b555382.mp4
+
+
+
 
 
 
 # Credits
 based on Octopus Project, thanks for * [mhaskar](https://github.com/mhaskar/Octopus)
+
+
 
 
