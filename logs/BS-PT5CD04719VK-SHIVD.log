@@ -1,0 +1,27 @@
+Hostname : BS-PT5CD04719VK-SHIVD
+Command : hostname
+Time : Sun Aug 22 16:23:14 2021
+Results : BS-PT5CD04719VK
+[cid:C:\Users\VladiFidchuk\Documents\ahva.jpg]
+
+
+
+++++++++++++++++++++++++++++++
+Hostname : BS-PT5CD04719VK-SHIVD
+Command : ipconfig
+Time : Sun Aug 22 16:24:00 2021
+Results : Windows IP Configuration Ethernet adapter Ethernet: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . : Ethernet adapter Ethernet 5: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . : Home Unknown adapter OpenVPN Wintun: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . : Ethernet adapter vEthernet (Default Switch): Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::ac7f:e207:7cdc:9429%131 IPv4 Address. . . . . . . . . . . : 172.18.176.1 Subnet Mask . . . . . . . . . . . : 255.255.240.0 Default Gateway . . . . . . . . . : Ethernet adapter VirtualBox Host-Only Network: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::2907:3e34:115f:3c90%10 IPv4 Address. . . . . . . . . . . : 192.168.56.1 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter VirtualBox Host-Only Network #7: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::91ec:adf6:f852:9073%27 IPv4 Address. . . . . . . . . . . : 192.168.135.2 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter VirtualBox Host-Only Network #8: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::8446:fd4b:fc80:2c84%33 IPv4 Address. . . . . . . . . . . : 192.168.203.2 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter VirtualBox Host-Only Network #9: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::f17c:3a94:6446:f8d0%36 IPv4 Address. . . . . . . . . . . : 192.168.8.2 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter VirtualBox Host-Only Network #10: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::b1e9:6db2:d514:d3c9%14 IPv4 Address. . . . . . . . . . . : 192.168.188.2 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter VirtualBox Host-Only Network #11: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::b158:2a05:2012:9372%43 IPv4 Address. . . . . . . . . . . : 192.168.51.2 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter VirtualBox Host-Only Network #12: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::7dec:45d6:caaf:6dcc%19 IPv4 Address. . . . . . . . . . . : 192.168.120.1 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Wireless LAN adapter Local Area Connection* 1: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . : Wireless LAN adapter Local Area Connection* 10: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . : Ethernet adapter Ethernet 2: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . : Ethernet adapter VMware Network Adapter VMnet1: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::8441:fc0c:677a:4e26%3 IPv4 Address. . . . . . . . . . . : 192.168.118.1 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter VMware Network Adapter VMnet8: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::f1bb:3c22:2c9e:6cb0%38 IPv4 Address. . . . . . . . . . . : 192.168.142.1 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : Ethernet adapter Ethernet 8: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . : Wireless LAN adapter Wi-Fi: Connection-specific DNS Suffix . : Link-local IPv6 Address . . . . . : fe80::7584:5d9:d7c8:8346%46 IPv4 Address. . . . . . . . . . . : 10.100.102.7 Subnet Mask . . . . . . . . . . . : 255.255.255.0 Default Gateway . . . . . . . . . : 10.100.102.1 Ethernet adapter Bluetooth Network Connection: Media State . . . . . . . . . . . : Media disconnected Connection-specific DNS Suffix . :
+[cid:C:\Users\VladiFidchuk\Documents\ahva.jpg]
+
+
+
+++++++++++++++++++++++++++++++
+Hostname : BS-PT5CD04719VK-SHIVD
+Command : ls
+Time : Sun Aug 22 16:24:45 2021
+Results : Directory: G:\Od-Hard_Disk\C2\SusMail Mode LastWriteTime Length Name ---- ------------- ------ ---- d----- 8/14/2021 9:14 PM FRANCISCO d----- 8/20/2021 4:26 PM Original -a---- 8/14/2021 8:27 PM 424 susMai.ps1 -a---- 8/20/2021 5:10 PM 2163 HELP.txt -a---- 8/14/2021 10:09 PM 561 RecieveFile.ps1 -a---- 8/19/2021 1:28 PM 4128 AllinOne.ps1 -a---- 8/22/2021 7:14 PM 2244 AllinOne_Original.p s1 -a---- 8/16/2021 10:09 AM 1942 AllinOne.txt
+[cid:C:\Users\VladiFidchuk\Documents\ahva.jpg]
+
+
+
+++++++++++++++++++++++++++++++

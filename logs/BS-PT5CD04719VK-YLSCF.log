@@ -1,0 +1,23 @@
+Hostname : BS-PT5CD04719VK-YLSCF
+Command : whoami
+
+
+
+
+
+
+
+
+
+
+Time : Sun Aug 22 14:07:32 2021
+Results : New-Object : Exception calling ".ctor" with "2" argument(s): "Cannot process argument because the value of argument 
+"userName" is not valid. Change the value of the "userName" argument and run the operation again."
+At line:151 char:16
++ ... redential = New-Object System.Management.Automation.PSCredential -Arg ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+
+++++++++++++++++++++++++++++++

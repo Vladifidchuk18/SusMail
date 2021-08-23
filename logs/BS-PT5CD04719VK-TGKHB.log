@@ -1,0 +1,22 @@
+Hostname : BS-PT5CD04719VK-TGKHB
+Command : ipconfig
+Time : Sat Aug 21 18:45:48 2021
+Results : Cannot index into a null array.
+At line:170 char:5
++        $ec = $xml.feed.entry[0] | Select-Object -Property summary | O ...
++        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : NullArray
+ 
+
+++++++++++++++++++++++++++++++
+Hostname : BS-PT5CD04719VK-TGKHB
+Command : ipconfig
+Time : Sat Aug 21 18:47:02 2021
+Results : Windows IP Configuration Ethernet adapter Ethernet: Media State . . . . . . . . . . . : Media disconnecte...  
+++++++++++++++++++++++++++++++
+Hostname : BS-PT5CD04719VK-TGKHB
+Command : ipconfig
+Time : Sat Aug 21 19:05:30 2021
+Results : 
+++++++++++++++++++++++++++++++

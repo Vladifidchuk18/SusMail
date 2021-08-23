@@ -1,0 +1,26 @@
+Hostname : BS-PT5CD04719VK-PQKFD
+Command : 
+Time : Fri Aug 20 18:20:57 2021
+Results : Invoke-Expression : Cannot bind argument to parameter 'Command' because it is an empty string.
+At line:145 char:33
++         $ec = Invoke-Expression ($fc) | Out-String;
++                                 ~~~~~
+    + CategoryInfo          : InvalidData: (:) [Invoke-Expression], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Microsoft.PowerShell.Commands.Invo 
+   keExpressionCommand
+ 
+
+++++++++++++++++++++++++++++++
+Hostname : BS-PT5CD04719VK-PQKFD
+Command : 
+Time : Fri Aug 20 18:21:07 2021
+Results : Invoke-Expression : Cannot bind argument to parameter 'Command' because it is an empty string.
+At line:145 char:33
++         $ec = Invoke-Expression ($fc) | Out-String;
++                                 ~~~~~
+    + CategoryInfo          : InvalidData: (:) [Invoke-Expression], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationErrorEmptyStringNotAllowed,Microsoft.PowerShell.Commands.Invo 
+   keExpressionCommand
+ 
+
+++++++++++++++++++++++++++++++

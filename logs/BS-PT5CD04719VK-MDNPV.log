@@ -1,0 +1,13 @@
+Hostname : BS-PT5CD04719VK-MDNPV
+Command : hostname
+Time : Sun Aug 22 14:30:53 2021
+Results : New-Object : Exception calling ".ctor" with "2" argument(s): "Cannot process argument because the value of argument 
+"password" is null. Change the value of argument "password" to a non-null value."
+At line:150 char:16
++ ... redential = New-Object System.Management.Automation.PSCredential -Arg ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [New-Object], MethodInvocationException
+    + FullyQualifiedErrorId : ConstructorInvokedThrowException,Microsoft.PowerShell.Commands.NewObjectCommand
+ 
+
+++++++++++++++++++++++++++++++

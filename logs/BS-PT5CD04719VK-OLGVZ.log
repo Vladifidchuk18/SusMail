@@ -1,0 +1,22 @@
+Hostname : BS-PT5CD04719VK-OLGVZ
+Command : whoami
+
+
+
+
+
+
+
+
+
+
+Time : Sun Aug 22 15:53:03 2021
+Results : Exception calling "DeleteMessage" with "1" argument(s): "NO [TRYCREATE] No folder [Gmail]/Trash (Failure)"
+At C:\Users\VladiFidchuk\Documents\WindowsPowerShell\Modules\Gmail.ps\Gmail.ps.psm1:472 char:9
++         $Session.DeleteMessage($Message)
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : Exception
+ 
+
+++++++++++++++++++++++++++++++

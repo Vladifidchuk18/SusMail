@@ -1,0 +1,20 @@
+Hostname : BS-PT5CD04719VK-LVZYN
+Command : whoami
+
+
+
+
+
+
+
+
+
+
+Time : Sun Aug 22 12:16:02 2021
+Results : azuread\vladifidchuk  
+++++++++++++++++++++++++++++++
+Hostname : BS-PT5CD04719VK-LVZYN
+Command : ipconfig
+Time : Sun Aug 22 12:16:55 2021
+Results : Windows IP Configuration Ethernet adapter Ethernet: Media State . . . . . . . . . . . : Media disconnected Connectio...  
+++++++++++++++++++++++++++++++

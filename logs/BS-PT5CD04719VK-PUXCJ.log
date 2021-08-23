@@ -1,0 +1,12 @@
+Hostname : BS-PT5CD04719VK-PUXCJ
+Command : hostname
+Time : Sun Aug 22 16:20:32 2021
+Results : You cannot call a method on a null-valued expression.
+At C:\Users\VladiFidchuk\Documents\WindowsPowerShell\Modules\Gmail.ps\Gmail.ps.psm1:14 char:5
++     $gpass = $Credential.GetNetworkCredential().Password
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 
+
+++++++++++++++++++++++++++++++

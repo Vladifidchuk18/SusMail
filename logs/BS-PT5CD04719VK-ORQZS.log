@@ -1,0 +1,70 @@
+Hostname : BS-PT5CD04719VK-ORQZS
+Command : whoami
+
+
+
+
+
+
+
+
+
+
+Time : Fri Aug 20 14:02:57 2021
+Results : azuread\vladifidchuk
+
+++++++++++++++++++++++++++++++
+Hostname : BS-PT5CD04719VK-ORQZS
+Command : ls
+Time : Fri Aug 20 14:03:39 2021
+Results : 
+
+    Directory: C:\Users\VladiFidchuk
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----         7/27/2021   2:13 PM                .android                                                             
+d-----         8/18/2021  11:33 AM                .BigNox                                                              
+d-----         3/11/2021   4:34 PM                .dotnet                                                              
+d-----         4/12/2021   5:46 PM                .frida                                                               
+d-----         4/13/2021  11:29 AM                .gradle                                                              
+d-----         8/15/2021   2:57 AM                .Neo4jDesktop                                                        
+d-----         6/26/2021  10:41 PM                .nuget                                                               
+d-----         8/18/2021  12:39 PM                .objection                                                           
+d-----         7/13/2021   3:37 PM                .openjfx                                                             
+d-----         6/10/2021  11:53 AM                .ssh                                                                 
+d-----         8/20/2021   4:34 PM                .VirtualBox                                                          
+d-----         3/11/2021   4:28 PM                .vscode                                                              
+d-r---         3/11/2021   2:12 PM                3D Objects                                                           
+d-r---         8/20/2021   4:24 PM                BugSec                                                               
+d-r---         3/11/2021   2:12 PM                Contacts                                                             
+d-r---         8/17/2021   6:43 PM                Desktop                                                              
+d-r---         8/16/2021   8:26 PM                Documents                                                            
+d-r---         8/20/2021   4:54 PM                Downloads                                                            
+d-r---         3/11/2021   2:12 PM                Favorites                                                            
+d-----         7/10/2021   9:06 PM                go                                                                   
+d-r---         3/11/2021   2:12 PM                Links                                                                
+d-r---         3/11/2021   2:12 PM                Music                                                                
+d-----         3/11/2021   3:34 PM                Nox_share                                                            
+dar--l         8/20/2021   4:24 PM                OneDrive                                                             
+d-----          5/7/2021  12:22 PM                OpenVPN                                                              
+d-r---         8/11/2021   1:20 PM                Pictures                                                             
+d-r---         3/11/2021   2:12 PM                Saved Games                                                          
+d-r---         3/11/2021   2:20 PM                Searches                                                             
+d-----         5/20/2021  12:01 PM                source                                                               
+d-r---         3/14/2021  11:36 AM                Videos                                                               
+d-----         7/26/2021   2:24 PM                VirtualBox VMs                                                       
+d-----         8/18/2021  11:33 AM                vmlogs                                                               
+-a----         5/20/2021   2:13 PM             71 .emailgrabber2                                                       
+-a----         7/10/2021   2:45 PM             31 .jline-jython.history                                                
+-a----         7/27/2021   5:41 PM            297 d4ac4633ebd6440fa397b84f1bc94a3c.7z                                  
+-a----         3/11/2021   3:35 PM             66 inittk.ini                                                           
+-a----         3/11/2021   3:34 PM             41 inst.ini                                                             
+-a----         3/11/2021   3:34 PM             45 nuuid.ini                                                            
+-a----         3/11/2021   3:34 PM             53 useruid.ini                                                          
+-a----         7/25/2021  12:01 PM          53488 values.txt                                                           
+
+
+
+++++++++++++++++++++++++++++++

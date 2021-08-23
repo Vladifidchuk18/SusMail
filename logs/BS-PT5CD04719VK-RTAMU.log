@@ -1,0 +1,22 @@
+Hostname : BS-PT5CD04719VK-RTAMU
+Command : whoami
+
+
+
+
+
+
+
+
+
+
+Time : Sun Aug 22 12:19:59 2021
+Results : Exception calling "GetMessage" with "2" argument(s): "Object reference not set to an instance of an object."
+At C:\Users\VladiFidchuk\Documents\WindowsPowerShell\Modules\Gmail.ps\Gmail.ps.psm1:617 char:9
++         $Session.GetMessage($Message.Uid, $false)
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodInvocationException
+    + FullyQualifiedErrorId : NullReferenceException
+ 
+
+++++++++++++++++++++++++++++++
