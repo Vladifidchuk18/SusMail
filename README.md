@@ -65,16 +65,17 @@ Octopus >>
 > generate_powershell <listener_name>
 
 
-Now copy the first IEX and run it from machine that has access to your gmail account
+*Now copy the first IEX and run it from machine that has access to your gmail account
 
 
-> (after connection established): interact 1
-And you will able to run os PS commands
+> (after connection established): 
+> interact 1
+* And you will able to run os PS commands
 
 
 
 
 # Credits
-based on Octopus Project, thanks for mhaskar * [J005](https://github.com/iomoath)
+based on Octopus Project, thanks for * [mhaskar](https://github.com/mhaskar/Octopus)
 
 
