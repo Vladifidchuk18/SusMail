@@ -21,7 +21,7 @@ C2 over Microsofts' Outlook based on Octopus as backend.
 ```pip install -r requirements.txt```
 
 You have to change the next details before you start:
-* change the  $username = "XXX", $password = "YYY", $Sent_To = "ZZZ" ```./agents/agent.ps1.oct ```
+* change the  $username = "XXX", $password = "YYY", $Sent_To = "ZZZ" inside the  ```./agents/agent.ps1.oct ```
 * erasing all the emails from the inbox
 * permit email account communication with low security apps
 if there any problem with it:
